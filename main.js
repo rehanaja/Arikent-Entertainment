@@ -1,0 +1,107 @@
+$('.music-box .owl-carousel').owlCarousel({
+    loop:false,
+    margin:50,
+    nav:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1024:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})
+
+   $('.testimonial .owl-carousel').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1024:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})
+
+   $('.photo-gallery-box .owl-carousel').owlCarousel({
+    loop:false,
+    margin:40,
+    nav:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1024:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})
+
+   $('.video-gallery-box .owl-carousel').owlCarousel({
+    loop:false,
+    margin:40,
+    nav:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1024:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})

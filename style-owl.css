@@ -1,0 +1,29 @@
+
+
+.owl-carousel {
+	margin: auto;
+	padding: 0 40px;
+}
+
+
+.owl-carousel .item {
+	background-color: red;
+	height: 450px;
+	width: 370px;
+	margin: auto;
+}
+
+
+.owl-theme .owl-dots .owl-dot {
+	padding-top: 20px!important;
+}
+
+.owl-theme .owl-dots .owl-dot.active:focus {
+	outline: none!important;
+	outline-style: none;
+	outline-width: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+	
+}

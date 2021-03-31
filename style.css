@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+section h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Cookie";
+	/*background-color: #fff;*/
+	color: #fff;
+	padding: 20px;
+	margin: 15px;
+	z-index: 1;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.video-container video {
+	width: 100%;
+}
+
